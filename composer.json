@@ -35,17 +35,40 @@
       "type": "composer",
       "url": "https://wpackagist.org",
       "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/advanced-custom-fields-pro",
+        "version": "5.8.8",
+        "type": "wordpress-muplugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}"
+        },
+        "require": {
+          "composer/installers": "^1.4",
+          "ffraenz/private-composer-installer": "^4.0"
+        }
+      }
     }
   ],
   "require": {
     "php": ">=7.1",
+    "ext-gd": "*",
     "composer/installers": "^1.8",
     "vlucas/phpdotenv": "^4.1.5",
     "oscarotero/env": "^2.0",
     "roots/bedrock-autoloader": "^1.0",
     "roots/wordpress": "5.4.1",
     "roots/wp-config": "1.0.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "wpackagist-plugin/mailgun": "^1.7",
+    "wpackagist-plugin/contact-form-7": "^5.2",
+    "wpackagist-plugin/duplicate-post": "^3.2",
+    "wpackagist-plugin/yikes-inc-easy-mailchimp-extender": "^6.7",
+    "wpackagist-plugin/seo-by-rank-math": "1.0.44.1",
+    "advanced-custom-fields/advanced-custom-fields-pro": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5.4",
