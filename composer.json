@@ -1,8 +1,8 @@
 {
-  "name": "roots/bedrock",
+  "name": "tootz/bedrock",
   "type": "project",
   "license": "MIT",
-  "description": "WordPress boilerplate with modern development tools, easier configuration, and an improved folder structure",
+  "description": "WordPress boilerplate with modern development tools, easier configuration, an improved folder structure, and utils and walkers",
   "homepage": "https://roots.io/bedrock/",
   "authors": [
     {
@@ -14,15 +14,22 @@
       "name": "Ben Word",
       "email": "ben@benword.com",
       "homepage": "https://github.com/retlehs"
+    },
+    {
+      "name": "Wendell Barreto",
+      "email": "wendell@tootz.com.br",
+      "homepage": "https://github.com/wendellpbarreto"
+    },
+    {
+      "name": "Luan Santos",
+      "email": "luan@tootz.com.br",
+      "homepage": "https://github.com/luankjs"
     }
   ],
   "keywords": [
     "bedrock", "composer", "roots", "wordpress", "wp", "wp-config"
   ],
-  "support": {
-    "issues": "https://github.com/roots/bedrock/issues",
-    "forum": "https://discourse.roots.io/category/bedrock"
-  },
+  "support": {},
   "repositories": [
     {
       "type": "composer",
