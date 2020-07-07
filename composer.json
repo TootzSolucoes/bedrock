@@ -2,7 +2,7 @@
   "name": "tootz/bedrock",
   "type": "project",
   "license": "MIT",
-  "description": "WordPress boilerplate with modern development tools, easier configuration, an improved folder structure, and utils and walkers",
+  "description": "WordPress boilerplate with modern development tools, easier configuration, an improved folder structure, util functions and walkers, and Sharp starter theme",
   "homepage": "https://roots.io/bedrock/",
   "authors": [
     {
@@ -14,11 +14,6 @@
       "name": "Ben Word",
       "email": "ben@benword.com",
       "homepage": "https://github.com/retlehs"
-    },
-    {
-      "name": "Wendell Barreto",
-      "email": "wendell@tootz.com.br",
-      "homepage": "https://github.com/wendellpbarreto"
     },
     {
       "name": "Luan Santos",
