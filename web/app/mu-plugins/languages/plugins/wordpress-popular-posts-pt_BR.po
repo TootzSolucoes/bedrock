@@ -1,0 +1,1137 @@
+# Translation of Plugins - WordPress Popular Posts - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - WordPress Popular Posts - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-03-06 20:31:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - WordPress Popular Posts - Stable (latest release)\n"
+
+#: src/Admin/Admin.php:1367
+msgid "<strong>WordPress Popular Posts:</strong> It seems your site is popular (great!) You may want to check <a href=\"%s\">these suggestions</a> to make sure your website's performance stays up to par."
+msgstr "<strong>WordPress Popular Posts:</strong> Parece que seu site é popular! (Ótimo!) Você pode querer dar uma olhada <a href=\"%s\">nestas sugestões</a> para garantir que o desempenho do seu site esteja satisfatório."
+
+#: wordpress-popular-posts.php:52
+msgid "WordPress Popular Posts requires at least PHP %1$s and WordPress %2$s to function correctly. Your site uses PHP %3$s and WordPress %4$s."
+msgstr "O WordPress Popular Posts requer ao menos a versão %1$s do PHP e a versão %2$s do WordPress para funcionar corretamente. Seu site usa a versão o PHP %3$s e o WordPress %4$s."
+
+#: src/Widget/form.php:234
+msgid "Please save this widget (or reload this page) to enable WPP themes."
+msgstr "Por favor, salve este widget (ou recarregue esta página) para habilitar os temas do WordPress Popular Posts."
+
+#: src/Widget/form.php:218
+msgid "see a <a href=\"%s\">list of supported browsers</a>"
+msgstr "consulte a <a href=\"%s\">lista de navegadores suportados</a>"
+
+#: src/Widget/form.php:218
+msgid "Theme"
+msgstr "Tema"
+
+#: src/Admin/admin-page.php:878
+msgid "outputs the position of the post in the listing"
+msgstr "exibe a posição da publicação na listagem"
+
+#: src/Admin/admin-page.php:878
+msgid "outputs number of popular posts found"
+msgstr "Exibe o número de posts populares encontrados"
+
+#: src/Admin/Admin.php:493
+msgid "View more"
+msgstr "Ver mais"
+
+#: src/Rest/Controller.php:304
+msgid "Invalid Widget Instance ID"
+msgstr "ID de instância do widget invalida"
+
+#: src/Admin/admin-page.php:425
+msgid "No"
+msgstr "Não"
+
+#: src/Admin/admin-page.php:422
+msgid "Lazy load"
+msgstr "Lazy Load"
+
+#: src/Admin/Admin.php:699 src/Admin/Admin.php:1090 src/Admin/Admin.php:1092
+#: src/Output.php:705
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s comentário"
+msgstr[1] "%s comentários"
+
+#: src/Admin/Admin.php:699 src/Admin/Admin.php:1088 src/Admin/Admin.php:1092
+#: src/Output.php:722
+msgid "%s view"
+msgid_plural "%s views"
+msgstr[0] "%s visualização"
+msgstr[1] "%s visualizações"
+
+#: src/Rest/Controller.php:501
+msgid "Include popular posts from author ID(s)."
+msgstr "Incluir posts populares pelo(s) ID(s) do autor."
+
+#: src/Rest/Controller.php:477
+msgid "Post IDs to exclude from the listing."
+msgstr "ID's dos posts para se excluir da lista."
+
+#: src/Admin/admin-page.php:527
+msgid "WPP can cache the popular list for a specified amount of time. Recommended for large / high traffic sites"
+msgstr "WPP pode armazenar um cache da lista de posts populares por um período de tempo determinado. Recomendado para sites com alto tráfego."
+
+#: src/Admin/admin-page.php:519
+msgid "Data Caching"
+msgstr "Cache de dados"
+
+#: src/Rest/Controller.php:542
+msgid "Sets the Sampling Rate."
+msgstr "Define a taxa de amostragem."
+
+#: src/Rest/Controller.php:535
+msgid "Enables Data Sampling."
+msgstr "Ativa a amostragem de dados."
+
+#: src/Rest/Controller.php:528
+msgid "The post / page ID."
+msgstr "O ID da página/post."
+
+#: src/Rest/Controller.php:522
+msgid "Security nonce."
+msgstr "Nonce de segurança."
+
+#: src/Rest/Controller.php:493
+msgid "Taxonomy IDs, separated by comma (prefix a minus sign to exclude)."
+msgstr "ID's de taxonomia, separados por vírgula (inicie com um sinal de menos para excluir)."
+
+#: src/Rest/Controller.php:485
+msgid "Include posts in a specified taxonomy."
+msgstr "Incluir posts em uma taxonomia específica."
+
+#: src/Rest/Controller.php:469
+msgid "Specifies the number of time units of the custom time range."
+msgstr "Especifica o número de unidades de tempo do período personalizado."
+
+#: src/Rest/Controller.php:461
+msgid "Specifies the time unit of the custom time range."
+msgstr "Especifica a unidade de tempo do período personalizado."
+
+#: src/Rest/Controller.php:453
+msgid "Return popular posts from a specified time range."
+msgstr "Retorna os posts populares de um intervalo de tempo especificado."
+
+#: src/Rest/Controller.php:445
+msgid "Set the sorting option of the popular posts."
+msgstr "Defina a opção de ordenação dos posts populares."
+
+#: src/Rest/Controller.php:437
+msgid "An offset point for the collection."
+msgstr "Um offset para a coleção."
+
+#: src/Rest/Controller.php:429
+msgid "Retrieve the most popular entries published within the specified time range."
+msgstr "Recuperar os posts publicados mais populares entre o intervalo de tempo especificado."
+
+#: src/Rest/Controller.php:421
+msgid "The maximum number of popular posts to return."
+msgstr "O número máximo de posts populares a serem retornados."
+
+#: src/Rest/Controller.php:414
+msgid "Return popular posts from specified custom post type(s)."
+msgstr "Retorna os posts populares de um ou mais tipos de post personalizados especificados."
+
+#: src/Admin/admin-page.php:405
+msgid "This image will be displayed when no thumbnail is available"
+msgstr "Essa imagem será exibida quando nenhuma imagem destacada estiver disponível."
+
+#: src/Admin/admin-page.php:402
+msgid "Change thumbnail"
+msgstr "Substituir imagem destacada"
+
+#: src/Admin/admin-page.php:350
+msgid "Hall of Fame"
+msgstr "Hall da fama"
+
+#: src/Admin/Admin.php:405 src/Admin/admin-page.php:349
+msgid "Trending now"
+msgstr "Em alta"
+
+#: src/Admin/admin-page.php:348
+msgid "Most commented"
+msgstr "Mais comentados"
+
+#: src/Admin/admin-page.php:347
+msgid "Most viewed"
+msgstr "Mais vistos"
+
+#: src/Admin/admin-page.php:323
+msgid "Today"
+msgstr "Hoje"
+
+#: src/Admin/Admin.php:522
+msgid "Use this image"
+msgstr "Use essa imagem"
+
+#: src/Admin/Admin.php:371
+msgid "%s view in the last hour"
+msgid_plural "%s views in the last hour"
+msgstr[0] "1 visualização na última hora"
+msgstr[1] "%s visualizações na última hora"
+
+#: src/Admin/admin-page.php:878
+msgid "returns the default stats tags"
+msgstr "retorna as tags de estatística padrão"
+
+#: src/Admin/admin-page.php:878
+msgid "returns the post/page ID"
+msgstr "retorna o ID do post/página"
+
+#: src/Admin/admin-page.php:878
+msgid "returns linked post/page title"
+msgstr "retorna o título com link do post/página"
+
+#: src/Admin/admin-page.php:501
+msgid "Data older than the specified time frame will be automatically discarded"
+msgstr "Dados mais antigos que o intervalo de tempo especificado serão automaticamente descartados"
+
+#: src/Admin/admin-page.php:730
+msgid "If set, WordPress Popular Posts will retrieve all entries that belong to the specified category ID(s). If a minus sign is used, entries associated to the category will be excluded instead."
+msgstr "Se ativado, o WordPress Popular Posts irá recuperar todas as entradas que pertencem aos ID(s) dos termo(s) especificado(s). Se um sinal de menos for utilizado, entradas associadas aos termos especificados serão excluídas."
+
+#. Description of the plugin
+msgid "A highly customizable widget that displays the most popular posts on your blog."
+msgstr "Um widget altamente personalizável que exibe os posts mais populares em seu blog."
+
+#: src/Widget/form.php:167
+msgid "Display taxonomy"
+msgstr "Exibir taxonomia"
+
+#: src/Widget/form.php:159
+msgid "Relative"
+msgstr "Relativo"
+
+#: src/Widget/form.php:88
+msgid "Author ID(s)"
+msgstr "ID(s) do(s) autor(es)"
+
+#. translators: %s here represents the singular name of the taxonomy (eg.
+#. Category)
+#: src/Widget/form.php:82
+msgid "%s IDs, separated by comma (prefix a minus sign to exclude)"
+msgstr "ID(s) de taxonomia, separados por vírgula (inicie com um sinal de menos para excluir)"
+
+#: src/Widget/form.php:60
+msgid "Taxonomy"
+msgstr "Taxonomia"
+
+#: src/Admin/admin-page.php:327 src/Widget/form.php:38
+msgid "Custom"
+msgstr "Personalizado"
+
+#: src/Widget/Widget.php:167
+msgid "Error: cannot ajaxify WordPress Popular Posts on this sidebar. It's missing the <em>id</em> attribute on before_widget (see <a href=\"%s\" target=\"_blank\" rel=\"nofollow\">register_sidebar</a> for more)"
+msgstr "Erro: não foi possível utilizar o WordPress Popular Posts com ajax neste tema. Está faltando o atributo <em>id</em> em before_widget(veja <a href=\"%s\" target=\"_blank\" rel=\"nofollow\">register_sidebar</a> para maiores informações)"
+
+#: src/Output.php:751
+msgid "posted %s"
+msgstr "publicado %s"
+
+#: src/Admin/admin-page.php:878
+msgid "returns linked taxonomy names, requires stats_taxonomy=1"
+msgstr "retorna o nome das taxonomias com links, requer stats_taxonomy=1"
+
+#: src/Admin/admin-page.php:878
+msgid "returns thumbnail url, requires thumbnail_width & thumbnail_height"
+msgstr "retorna a url da imagem destacada, necessita de thumbnail_width e de thumbnail_height"
+
+#: src/Admin/admin-page.php:856
+msgid "If set, WordPress Popular Posts will display the taxonomies associated to each entry"
+msgstr "Se ativado, o WordPress Popular Posts irá exibir as categorias associadas a cada post"
+
+#: src/Admin/admin-page.php:849
+msgid "If set, WordPress Popular Posts will display the categories associated to each entry"
+msgstr "Se ativado, o WordPress Popular Posts irá exibir as categorias associadas a cada entrada"
+
+#: src/Admin/admin-page.php:821
+msgid "If set, WordPress Popular Posts will show how many views each popular post has got during the specified time range"
+msgstr "Se ativado, o WordPress Popular Posts irá exibir quantas visualizações cada post popular recebeu durante o intervalo de tempo especificado"
+
+#: src/Admin/admin-page.php:737
+msgid "If set, WordPress Popular Posts will filter posts by a given taxonomy."
+msgstr "Se ativado, o WordPress Popular Posts irá filtrar os posts por uma taxonomia especificada"
+
+#: src/Admin/admin-page.php:695
+msgid "Especifies the time unit of the custom time range"
+msgstr "Especifica a unidade de tempo do intervalo de tempo personalizado"
+
+#: src/Admin/admin-page.php:688
+msgid "Especifies the number of time units of the custom time range"
+msgstr "Especifica o número de unidades de tempo do intervalo de tempo personalizado"
+
+#: src/Admin/admin-page.php:656 src/Admin/admin-page.php:663
+#: src/Admin/admin-page.php:670 src/Admin/admin-page.php:677
+#: src/Admin/admin-page.php:684 src/Admin/admin-page.php:691
+#: src/Admin/admin-page.php:698 src/Admin/admin-page.php:705
+#: src/Admin/admin-page.php:712 src/Admin/admin-page.php:719
+#: src/Admin/admin-page.php:726 src/Admin/admin-page.php:733
+#: src/Admin/admin-page.php:740 src/Admin/admin-page.php:747
+#: src/Admin/admin-page.php:754 src/Admin/admin-page.php:761
+#: src/Admin/admin-page.php:768 src/Admin/admin-page.php:775
+#: src/Admin/admin-page.php:782 src/Admin/admin-page.php:789
+#: src/Admin/admin-page.php:796 src/Admin/admin-page.php:803
+#: src/Admin/admin-page.php:810 src/Admin/admin-page.php:817
+#: src/Admin/admin-page.php:824 src/Admin/admin-page.php:831
+#: src/Admin/admin-page.php:838 src/Admin/admin-page.php:845
+#: src/Admin/admin-page.php:852 src/Admin/admin-page.php:859
+#: src/Admin/admin-page.php:866 src/Admin/admin-page.php:873
+#: src/Admin/admin-page.php:880
+msgid "With the [wpp] shortcode:"
+msgstr "Com o shortcode [wpp]:"
+
+#: src/Admin/admin-page.php:656 src/Admin/admin-page.php:663
+#: src/Admin/admin-page.php:670 src/Admin/admin-page.php:677
+#: src/Admin/admin-page.php:684 src/Admin/admin-page.php:691
+#: src/Admin/admin-page.php:698 src/Admin/admin-page.php:705
+#: src/Admin/admin-page.php:712 src/Admin/admin-page.php:719
+#: src/Admin/admin-page.php:726 src/Admin/admin-page.php:733
+#: src/Admin/admin-page.php:740 src/Admin/admin-page.php:747
+#: src/Admin/admin-page.php:754 src/Admin/admin-page.php:761
+#: src/Admin/admin-page.php:768 src/Admin/admin-page.php:775
+#: src/Admin/admin-page.php:782 src/Admin/admin-page.php:789
+#: src/Admin/admin-page.php:796 src/Admin/admin-page.php:803
+#: src/Admin/admin-page.php:810 src/Admin/admin-page.php:817
+#: src/Admin/admin-page.php:824 src/Admin/admin-page.php:831
+#: src/Admin/admin-page.php:838 src/Admin/admin-page.php:845
+#: src/Admin/admin-page.php:852 src/Admin/admin-page.php:859
+#: src/Admin/admin-page.php:866 src/Admin/admin-page.php:873
+#: src/Admin/admin-page.php:880
+msgid "With wpp_get_mostpopular():"
+msgstr "Com wpp_get_mostpopular():"
+
+#: src/Admin/admin-page.php:331
+msgid "Err... A nice little chart is supposed to be here, instead you are seeing this because your browser is too old. <br /> Please <a href=\"%s\" target=\"_blank\">get a better browser</a>."
+msgstr "Err... Era pra ter um gráfico legal aqui, você está vendo isso porque seu navegador é muito velho. <br /> Por favor <a href=\"%s\" target=\"_blank\"> mude para um navegador melhor</a>."
+
+#: src/Admin/admin-page.php:303
+msgid "Select a date..."
+msgstr "Selecione uma data..."
+
+#: src/Admin/admin-page.php:289
+msgid "Date Range"
+msgstr "Intervalo de datas"
+
+#: src/Admin/admin-page.php:288
+msgid "Custom Time Range"
+msgstr "Intervalo de tempo personalizado"
+
+#: src/Admin/admin-page.php:279 src/Admin/admin-page.php:313
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/Admin/admin-page.php:239
+msgid "Menu"
+msgstr "Menu"
+
+#: src/Admin/Admin.php:622
+msgid "Settings"
+msgstr "Configurações"
+
+#: src/Admin/Admin.php:1105
+msgid "Looks like your site's activity is a little low right now. <br />Spread the word and come back later!"
+msgstr "Parece que o tráfego no seu site está bem baixo agora. <br />Espalhe as notícias e retorne mais tarde!"
+
+#: src/Admin/Admin.php:1094
+msgid "Edit"
+msgstr "Editar"
+
+#: src/Admin/Admin.php:1094
+msgid "View"
+msgstr "Visualizar"
+
+#: src/Admin/Admin.php:724
+msgid "Views"
+msgstr "Visualizações"
+
+#: src/Admin/Admin.php:598
+msgid "<p><strong>For more information:</strong></p><ul><li><a href=\"%1$s\">Documentation</a></li><li><a href=\"%2$s\">Support</a></li></ul>"
+msgstr "<p><strong>Para maiores informações:</strong></p><ul><li><a href=\"%1$s\">Documentação</a></li><li><a href=\"%2$s\">Suporte</a></li></ul>"
+
+#: src/Admin/Admin.php:582
+msgid "Like this plugin?"
+msgstr "Gostou deste plugin?"
+
+#: src/Admin/Admin.php:576
+msgid "Welcome to WordPress Popular Posts' Dashboard! In this screen you will find statistics on what's popular on your site, tools to further tweak WPP to your needs, and more!"
+msgstr "Bem vindo ao painel do WordPress Popular Posts! Nesta tela você irá encontrar estatísticas sobre o que é mais popular no seu site, ferramentas para ajustar ainda mais o WordPress Popular Posts para suas necessidades e mais!"
+
+#: src/Admin/Admin.php:575
+msgid "Overview"
+msgstr "Visão geral"
+
+#: src/Admin/admin-page.php:414
+msgid "First attachment"
+msgstr "Primeiro anexo"
+
+#. Author URI of the plugin
+msgid "https://cabrerahector.com/"
+msgstr "https://cabrerahector.com/"
+
+#. Author of the plugin
+msgid "Hector Cabrera"
+msgstr "Hector Cabrera"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/wordpress-popular-posts/"
+msgstr "https://wordpress.org/plugins/wordpress-popular-posts/"
+
+#. Plugin Name of the plugin
+msgid "WordPress Popular Posts"
+msgstr "WordPress Popular Posts"
+
+#: src/Output.php:759
+msgid "under %s"
+msgstr "em %s"
+
+#: src/Output.php:751
+msgid "posted on %s"
+msgstr "publicado em %s"
+
+#: src/Output.php:745
+msgid "by %s"
+msgstr "por %s"
+
+#: src/Output.php:716
+msgid "%s view per day"
+msgid_plural "%s views per day"
+msgstr[0] "1 visualização por dia"
+msgstr[1] "%s visualizações por dia"
+
+#: src/Output.php:237
+msgid "Sorry. No data so far."
+msgstr "Nenhum dado até agora."
+
+#. translators: Special characters (such as accents) must be replaced with
+#. Javascript Octal codes (eg. \341 is the Octal code for small a with acute
+#. accent)
+#: src/Admin/admin-page.php:214
+msgid "The thumbnail cache is already empty!"
+msgstr "O cache de miniaturas já está vazio!"
+
+#. translators: Special characters (such as accents) must be replaced with
+#. Javascript Octal codes (eg. \341 is the Octal code for small a with acute
+#. accent)
+#: src/Admin/admin-page.php:210
+msgid "Success! All files have been deleted!"
+msgstr "Sucesso! Todos os arquivos foram excluídos!"
+
+#. translators: Special characters (such as accents) must be replaced with
+#. Javascript Octal codes (eg. \341 is the Octal code for small a with acute
+#. accent)
+#: src/Admin/admin-page.php:145 src/Admin/admin-page.php:184
+#: src/Admin/admin-page.php:222
+msgid "Sorry, you do not have enough permissions to do this. Please contact the site administrator for support."
+msgstr "Você não tem permissão para fazer isso. Entre em contato com o administrador do site para suporte."
+
+#. translators: Special characters (such as accents) must be replaced with
+#. Javascript Octal codes (eg. \341 is the Octal code for small a with acute
+#. accent)
+#: src/Admin/admin-page.php:141 src/Admin/admin-page.php:149
+#: src/Admin/admin-page.php:180 src/Admin/admin-page.php:188
+#: src/Admin/admin-page.php:218 src/Admin/admin-page.php:226
+msgid "Invalid action."
+msgstr "Ação inválida."
+
+#. translators: Special characters (such as accents) must be replaced with
+#. Javascript Octal codes (eg. \341 is the Octal code for small a with acute
+#. accent)
+#: src/Admin/admin-page.php:176
+msgid "Error: one or both data tables are missing."
+msgstr "Erro: uma ou mais tabelas de dados estão faltando."
+
+#. translators: Special characters (such as accents) must be replaced with
+#. Javascript Octal codes (eg. \341 is the Octal code for small a with acute
+#. accent)
+#: src/Admin/admin-page.php:172
+msgid "Success! All data have been cleared!"
+msgstr "Sucesso! Todos os dados foram limpos!"
+
+#. translators: Special characters (such as accents) must be replaced with
+#. Javascript Octal codes (eg. \341 is the Octal code for small a with acute
+#. accent)
+#: src/Admin/admin-page.php:137
+msgid "Error: cache table does not exist."
+msgstr "Erro: a tabela de cache não existe."
+
+#. translators: Special characters (such as accents) must be replaced with
+#. Javascript Octal codes (eg. \341 is the Octal code for small a with acute
+#. accent)
+#: src/Admin/admin-page.php:133
+msgid "Success! The cache table has been cleared!"
+msgstr "Sucesso! A tabela de cache foi limpa!"
+
+#: src/Widget/Widget.php:77
+msgid "The most Popular Posts on your blog."
+msgstr "Os posts mais populares do seu blog."
+
+#: src/Widget/form.php:211
+msgid "Post HTML Markup"
+msgstr "HTML do post"
+
+#: src/Widget/form.php:208
+msgid "Before / after Popular Posts"
+msgstr "Antes / depois dos Posts Populares"
+
+#: src/Widget/form.php:205
+msgid "Before / after title"
+msgstr "Antes / depois do título"
+
+#: src/Widget/form.php:190
+msgid "Use custom HTML Markup"
+msgstr "Usar HTML personalizado"
+
+#: src/Widget/form.php:188
+msgid "HTML Markup settings"
+msgstr "Opções de HTML"
+
+#: src/Widget/form.php:160
+msgid "WordPress Date Format"
+msgstr "Formato de data do WordPress"
+
+#: src/Widget/form.php:157
+msgid "Date Format"
+msgstr "Formato de data"
+
+#: src/Widget/form.php:154
+msgid "Display date"
+msgstr "Exibir data"
+
+#: src/Widget/form.php:152
+msgid "Display author"
+msgstr "Exibir autor"
+
+#: src/Widget/form.php:150
+msgid "Display views"
+msgstr "Exibir visualizações"
+
+#: src/Widget/form.php:148
+msgid "Display comment count"
+msgstr "Exibir número de comentários"
+
+#: src/Widget/form.php:146
+msgid "Stats Tag settings"
+msgstr "Configurações da tag de estatísticas"
+
+#: src/Widget/form.php:139
+msgid "Height"
+msgstr "Altura"
+
+#: src/Widget/form.php:136
+msgid "Width"
+msgstr "Largura"
+
+#: src/Widget/form.php:134
+msgid "Set size manually"
+msgstr "Definir o tamanho manualmente"
+
+#: src/Widget/form.php:122
+msgid "Use predefined size"
+msgstr "Usar tamanho pré-definido"
+
+#: src/Widget/form.php:119
+msgid "Display post thumbnail"
+msgstr "Exibir a imagem destacada do post"
+
+#: src/Widget/form.php:113
+msgid "Excerpt length"
+msgstr "Tamanho do resumo"
+
+#: src/Widget/form.php:112
+msgid "Keep text format and links"
+msgstr "Manter formato de texto e links"
+
+#: src/Widget/form.php:109
+msgid "Display post excerpt"
+msgstr "Exibir resumo do post"
+
+#: src/Widget/form.php:106 src/Widget/form.php:116
+msgid "words"
+msgstr "palavras"
+
+#: src/Widget/form.php:105 src/Widget/form.php:115
+msgid "characters"
+msgstr "caracteres"
+
+#: src/Widget/form.php:104
+msgid "Shorten title to"
+msgstr "Encurtar título para"
+
+#: src/Widget/form.php:101
+msgid "Shorten title"
+msgstr "Encurtar título"
+
+#: src/Widget/form.php:98
+msgid "Display post rating"
+msgstr "Exibir a avaliação do post"
+
+#: src/Widget/form.php:94
+msgid "Posts settings"
+msgstr "Configurações dos posts"
+
+#: src/Widget/form.php:57
+msgid "Post ID(s) to exclude"
+msgstr "ID(s) do(s) post(s) para se excluir"
+
+#: src/Widget/form.php:54
+msgid "Post type(s)"
+msgstr "Tipo(s) de post"
+
+#: src/Widget/form.php:32
+msgid "Time Range"
+msgstr "Faixa de horário"
+
+#: src/Widget/form.php:30
+msgid "Filters"
+msgstr "Filtros"
+
+#: src/Widget/form.php:23
+msgid "Avg. daily views"
+msgstr "Média de visualizações diárias"
+
+#: src/Widget/form.php:22
+msgid "Total views"
+msgstr "Total de visualizações"
+
+#: src/Admin/Admin.php:720 src/Widget/form.php:21
+msgid "Comments"
+msgstr "Comentários"
+
+#: src/Widget/form.php:19
+msgid "Sort posts by"
+msgstr "Ordenar posts por"
+
+#: src/Widget/form.php:14
+msgid "posts"
+msgstr "posts"
+
+#: src/Widget/form.php:13
+msgid "Show up to"
+msgstr "Exibir até"
+
+#: src/Widget/form.php:7
+msgid "Title"
+msgstr "Título"
+
+#: src/Admin/Admin.php:591
+msgid "You can <a href=\"%s\" target=\"_blank\">leave a review</a>, too!"
+msgstr "Você pode <a href=\"%s\" target=\"_blank\">deixar uma resposta</a> também!"
+
+#: src/Admin/Admin.php:584
+msgid "Each donation motivates me to keep releasing free stuff for the WordPress community!"
+msgstr "Cada doação me motiva a manter a criação de coisas gratuitas para a comunidade do WordPress!"
+
+#: src/Admin/admin-page.php:814
+msgid "If set, WordPress Popular Posts will show how many comments each popular post has got during the specified time range"
+msgstr "Se ativo, o WordPress Popular Posts irá exibir quantos comentários cada post popular recebeu durante o intervalo de tempo especificado"
+
+#: src/Admin/admin-page.php:878
+msgid "returns post/page date, requires stats_date=1"
+msgstr "retorna a data do post/página, requer stats_date=1"
+
+#: src/Admin/admin-page.php:878
+msgid "returns comments count only, no text, requires stats_comments=1"
+msgstr "retorna somente a contagem de comentários, sem texto, requer stats_comments=1"
+
+#: src/Admin/admin-page.php:878
+msgid "returns views count only, no text"
+msgstr "retorna somente a contagem de visualizações, sem texto"
+
+#: src/Admin/admin-page.php:878
+msgid "returns linked category name, requires stats_category=1"
+msgstr "retorna o nome da categoria com link, necessita de stats_category=1"
+
+#: src/Admin/admin-page.php:878
+msgid "returns linked author name, requires stats_author=1"
+msgstr "retorna o nome do autor com link, requer stats_author=1"
+
+#: src/Admin/admin-page.php:878
+msgid "returns post/page title, no link"
+msgstr "retorna o título do post/página, sem link"
+
+#: src/Admin/admin-page.php:878
+msgid "returns the URL of the post/page"
+msgstr "retorna o URL do post/página"
+
+#: src/Admin/admin-page.php:878
+msgid "returns post/page current rating as an integer, requires WP-PostRatings installed and enabled"
+msgstr "retorna a atual classificação do post/página como um número inteiro, requer WP-PostRatings instalado e habilitado"
+
+#: src/Admin/admin-page.php:878
+msgid "returns post/page current rating, requires WP-PostRatings installed and enabled"
+msgstr "retorna a atual classificação do post/página, requer WP-PostRatings instalado e habilitado"
+
+#: src/Admin/admin-page.php:878
+msgid "returns post/page excerpt, and requires excerpt_length to be greater than 0"
+msgstr "retorna o resumo do post/página, requer exerpt_length maior que 0"
+
+#: src/Admin/admin-page.php:878
+msgid "returns thumbnail image without linking to post/page, requires thumbnail_width & thumbnail_height"
+msgstr "retorna a imagem destacada sem o link para o post/página, necessita de thumbnail_width e de thumbnail_heigth"
+
+#: src/Admin/admin-page.php:878
+msgid "returns thumbnail linked to post/page, requires thumbnail_width & thumbnail_height"
+msgstr "retorna a imagem destacada com o link para o post/página, necessita de thumbnail_width e de thumbnail_heigth"
+
+#: src/Admin/admin-page.php:878
+msgid "Available Content Tags"
+msgstr "Tags de contéudo disponíveis"
+
+#: src/Admin/admin-page.php:878
+msgid "Text string, custom HTML"
+msgstr "String de texto, HTML personalizado"
+
+#: src/Admin/admin-page.php:877
+msgid "Sets the HTML structure of each post"
+msgstr "Define a estrutura HTML de cada post"
+
+#: src/Admin/admin-page.php:870
+msgid "Sets the closing tag for the listing"
+msgstr "Define a tag de encerramento para a lista"
+
+#: src/Admin/admin-page.php:863
+msgid "Sets the opening tag for the listing"
+msgstr "Define a tag de abertura para a lista"
+
+#: src/Admin/admin-page.php:842
+msgid "Sets the date format"
+msgstr "Define o formato da data"
+
+#: src/Admin/admin-page.php:835
+msgid "If set, WordPress Popular Posts will display the date when each popular post on the list was published"
+msgstr "Se ativado, o WordPress Popular Posts irá exibir a data de publicação de cada post popular na lista"
+
+#: src/Admin/admin-page.php:828
+msgid "If set, WordPress Popular Posts will show who published each popular post on the list"
+msgstr "Se ativado, o WordPress Popular Posts irá exibir quem publicou cada post popular na lista"
+
+#: src/Admin/admin-page.php:807
+msgid "If set, and if the WP-PostRatings plugin is installed and enabled on your blog, WordPress Popular Posts will show how your visitors are rating your entries"
+msgstr "Se ativado e se o plugin WP-PostRatings está instalado e habilitado no seu blog, o WordPress Popular Posts irá exibir como os seus visitantes estão avaliando suas entradas"
+
+#: src/Admin/admin-page.php:800
+msgid "If set, and if your current server configuration allows it, you will be able to display thumbnails of your posts. This attribute sets the height for thumbnails"
+msgstr "Se ativado, e se a configuração atual do seu servidor permitir, você poderá exibir imagens destacadas dos seus posts. Esse atributo define a altura das imagens"
+
+#: src/Admin/admin-page.php:793
+msgid "If set, and if your current server configuration allows it, you will be able to display thumbnails of your posts. This attribute sets the width for thumbnails"
+msgstr "Se definido, e se a configuração atual do seu servidor permitir, você poderá exibir imagens destacadas dos seus posts. Esse atributo define a largura das imagens"
+
+#: src/Admin/admin-page.php:786
+msgid "If set to 1, WordPress Popular Posts will shorten the excerpt to \"n\" words instead of characters"
+msgstr "Se ativado, o WordPress Popular Posts irá encurtar o resumo para \"n\" palavras ao invés de caracteres"
+
+#: src/Admin/admin-page.php:779
+msgid "If set, WordPress Popular Posts will maintaing all styling tags (strong, italic, etc) and hyperlinks found in the excerpt"
+msgstr "Se ativado, o WordPress Popular Posts irá manter as tags de estilo (strong, italic, etc) e hyperlinks encontrados no resumo"
+
+#: src/Admin/admin-page.php:772
+msgid "If set, WordPress Popular Posts will build and include an excerpt of \"n\" characters long from the content of each post listed as popular"
+msgstr "Se ativado, o WordPress Popular Posts irá construir e incluir um resumo de \"n\" caracteres do conteúdo de cada post listado como popular"
+
+#: src/Admin/admin-page.php:765
+msgid "If set to 1, WordPress Popular Posts will shorten each post title to \"n\" words instead of characters"
+msgstr "Se ativado, o WordPress Popular Posts irá encurtar o título de cada post para \"n\" palavras ao invés de caracteres"
+
+#: src/Admin/admin-page.php:758
+msgid "If set, WordPress Popular Posts will shorten each post title to \"n\" characters whenever possible"
+msgstr "Se ativado, o WordPress Popular Posts irá encurtar o título de cada post para \"n\" caracteres sempre que possível"
+
+#: src/Admin/admin-page.php:751
+msgid "If set, WordPress Popular Posts will retrieve all entries created by specified author(s) ID(s)."
+msgstr "Se ativado, o WordPress Popular Posts irá recuperar todas as entradas criadas pelas ID(s) dos autor(es) especificados"
+
+#: src/Admin/admin-page.php:744
+msgid "If set, WordPress Popular Posts will retrieve all entries that belong to the specified term ID(s). If a minus sign is used, entries associated to the term(s) will be excluded instead."
+msgstr "Se ativado, o WordPress Popular Posts irá recuperar todas as entradas que pertencem aos ID(s) dos termo(s) especificado(s). Se um sinal de menos for utilizado, entradas associadas aos termos especificados serão excluídos."
+
+#: src/Admin/admin-page.php:723
+msgid "If set, WordPress Popular Posts will exclude the specified post(s) ID(s) form the listing."
+msgstr "Se ativado, o WordPress Popular Posts irá excluir os post(s) especificados pelos ID(s) da lista."
+
+#: src/Admin/admin-page.php:716
+msgid "Defines the type of posts to show on the listing"
+msgstr "Define o tipo dos posts exibidos na lista"
+
+#: src/Admin/admin-page.php:710
+msgid "(for average views per day)"
+msgstr "(para visualizações em média por dia)"
+
+#: src/Admin/admin-page.php:709
+msgid "Sets the sorting option of the popular posts"
+msgstr "Define a opção de ordenação dos posts populares"
+
+#: src/Admin/admin-page.php:702
+msgid "Tells WordPress Popular Posts to retrieve the most popular entries published within the time range specified by you"
+msgstr "Informa ao WordPress Popular Posts para recuperar as entradas dos posts mais populares publicados no intervalo de tempo especificado por você"
+
+#: src/Admin/admin-page.php:681
+msgid "Tells WordPress Popular Posts to retrieve the most popular entries within the time range specified by you"
+msgstr "Informa ao WordPress Popular Posts para recuperar as entradas mais populares no intervalo de tempo especificado por você"
+
+#: src/Admin/admin-page.php:675 src/Admin/admin-page.php:689
+#: src/Admin/admin-page.php:759 src/Admin/admin-page.php:773
+#: src/Admin/admin-page.php:794 src/Admin/admin-page.php:801
+msgid "Positive integer"
+msgstr "Inteiro positivo"
+
+#: src/Admin/admin-page.php:674
+msgid "Sets the maximum number of popular posts to be shown on the listing"
+msgstr "Define o número máximo de posts populares exibidos na lista"
+
+#: src/Admin/admin-page.php:667
+msgid "Set the closing tag for the heading of the list"
+msgstr "Define a tag de encerramento para o cabeçalho da lista"
+
+#: src/Admin/admin-page.php:660
+msgid "Set the opening tag for the heading of the list"
+msgstr "Define a tag de abertura para o cabeçalho da lista"
+
+#: src/Admin/admin-page.php:655 src/Admin/admin-page.php:725
+#: src/Admin/admin-page.php:732 src/Admin/admin-page.php:739
+#: src/Admin/admin-page.php:746 src/Admin/admin-page.php:753
+#: src/Widget/form.php:226
+msgid "None"
+msgstr "Nenhum"
+
+#: src/Admin/admin-page.php:654 src/Admin/admin-page.php:661
+#: src/Admin/admin-page.php:668 src/Admin/admin-page.php:717
+#: src/Admin/admin-page.php:724 src/Admin/admin-page.php:731
+#: src/Admin/admin-page.php:738 src/Admin/admin-page.php:745
+#: src/Admin/admin-page.php:752 src/Admin/admin-page.php:843
+#: src/Admin/admin-page.php:864 src/Admin/admin-page.php:871
+msgid "Text string"
+msgstr "String de texto"
+
+#: src/Admin/admin-page.php:653
+msgid "Sets a heading for the list"
+msgstr "Define um cabeçalho para a lista"
+
+#: src/Admin/admin-page.php:647
+msgid "Example"
+msgstr "Exemplo"
+
+#: src/Admin/admin-page.php:646
+msgid "Defaults to"
+msgstr "Padrão"
+
+#: src/Admin/admin-page.php:645
+msgid "Possible values"
+msgstr "Valores possíveis"
+
+#: src/Admin/admin-page.php:644
+msgid "What it does "
+msgstr "O que isso faz"
+
+#: src/Admin/admin-page.php:643
+msgid "Parameter"
+msgstr "Parâmetro"
+
+#: src/Admin/admin-page.php:633
+msgid "With the following parameters you can customize the popular posts list when using either the <a href=\"%1$s\">wpp_get_mostpopular() template tag</a> or the <a href=\"%2$s\">[wpp] shortcode</a>."
+msgstr "Com os seguintes parâmetros você pode personalizar a lista de posts populares quando utilizado a <a href=\"%1$s\">template tag wpp_get_mostpopular()</a> ou o <a href=\"%2$s\">shortcode [wpp]</a>"
+
+#: src/Admin/admin-page.php:625
+msgid "Use this button to manually clear entries from all WPP data tables"
+msgstr "Use esse botão para limpar manualmente todas as entradas das tabelas de dados do WordPress Popular Posts"
+
+#: src/Admin/admin-page.php:625
+msgid "Clear all data"
+msgstr "Limpar todos os dados"
+
+#: src/Admin/admin-page.php:624
+msgid "Use this button to manually clear entries from WPP cache only"
+msgstr "Use esse botão para limpar manualmente todas as entradas somente do cache do WordPress Popular Posts"
+
+#: src/Admin/admin-page.php:624
+msgid "Empty cache"
+msgstr "Limpar cache"
+
+#: src/Admin/admin-page.php:623
+msgid "WordPress Popular Posts maintains data in two separate tables: one for storing the most popular entries on a daily basis (from now on, \"cache\"), and another one to keep the All-time data (from now on, \"historical data\" or just \"data\"). If for some reason you need to clear the cache table, or even both historical and cache tables, please use the buttons below to do so."
+msgstr "O WordPress Popular Posts mantém dados em duas tabelas separadas: uma para armazenar as entradas mais populares por dia (de agora em diante, \"cache\") e outra para armazenar os dados de todos os dias (de agora em diante, \"dados históricos\" ou somente \"dados\"). Se por alguma razão você precisa limpar a tabela de cache, ou mesmo ambas as tabelas de cache e de dados históricos, por favor use os botões abaixo para fazer isso."
+
+#: src/Admin/admin-page.php:603
+msgid "By default, the plugin includes a stylesheet called wpp.css which you can use to style your popular posts listing. If you wish to use your own stylesheet or do not want it to have it included in the header section of your site, use this."
+msgstr "Por padrão, o plugin inclui uma folha de estilos chamada wpp.css que você pode usar para estilizar a lista de posts populares. Se você deseja utilizar suas próprias folhas de estilo ou não quer inclui-lá na seção de cabeçalho do seu site, use isso."
+
+#: src/Admin/admin-page.php:596
+msgid "Use plugin's stylesheet"
+msgstr "Usar a folha de estilos do plugin"
+
+#: src/Admin/admin-page.php:590
+msgid "New tab/window"
+msgstr "Nova aba/janela"
+
+#: src/Admin/admin-page.php:589
+msgid "Current window"
+msgstr "Janela atual"
+
+#: src/Admin/admin-page.php:586
+msgid "Open links in"
+msgstr "Abrir links em"
+
+#: src/Admin/admin-page.php:580
+msgid "Miscellaneous"
+msgstr "Diversos"
+
+#: src/Admin/admin-page.php:563
+msgid "A sampling rate of %d is recommended for large / high traffic sites. For lower traffic sites, you should lower the value"
+msgstr "Uma taxa de amostragem de %d é recomendada para sites grandes / de alto tráfego. Para sites de tráfego menor, você deve diminuir o valor"
+
+#: src/Admin/admin-page.php:559
+msgid "Sample Rate"
+msgstr "Taxa de amostragem"
+
+#: src/Admin/admin-page.php:555
+msgid "By default, WordPress Popular Posts stores in database every single visit your site receives. For small / medium sites this is generally OK, but on large / high traffic sites the constant writing to the database may have an impact on performance. With <a href=\"%1$s\" target=\"_blank\">data sampling</a>, WordPress Popular Posts will store only a subset of your traffic and report on the tendencies detected in that sample set (for more, <a href=\"%2$s\" target=\"_blank\">please read here</a>)"
+msgstr "Por padrão, o WordPress Popular Posts armazena no banco de dados cada visita individual que seu site recebe. Para sites pequenos e médios isso geralmente é OK, mas para sites grandes / de alto tráfego a escrita constante do banco de dados pode causar um impacto na performance. Com a <a href=\"%1$s\" target=\"_blank\">amostragem de dados</a>, o WordPress Popular Posts irá armazenar apenas um subconjunto do seu tráfego e reportar as tendências detectadas no conjunto de amostras (para saber mais, <a href=\"%2$s\" target=\"_blank\">por favor leia isso</a>)"
+
+#: src/Admin/admin-page.php:547
+msgid "Data Sampling"
+msgstr "Amostragem de dados"
+
+#: src/Admin/admin-page.php:543
+msgid "Really? That long?"
+msgstr "Sério? Tanto tempo assim?"
+
+#: src/Admin/admin-page.php:540
+msgid "Year(s)"
+msgstr "Ano(s)"
+
+#: src/Admin/admin-page.php:539
+msgid "Month(s)"
+msgstr "Mês(es)"
+
+#: src/Admin/admin-page.php:538
+msgid "Week(s)"
+msgstr "Semana(s)"
+
+#: src/Admin/admin-page.php:298 src/Admin/admin-page.php:537
+#: src/Widget/form.php:47
+msgid "Day(s)"
+msgstr "Dia(s)"
+
+#: src/Admin/admin-page.php:297 src/Admin/admin-page.php:536
+#: src/Widget/form.php:46
+msgid "Hour(s)"
+msgstr "Hora(s)"
+
+#: src/Admin/admin-page.php:296 src/Admin/admin-page.php:535
+#: src/Widget/form.php:45
+msgid "Minute(s)"
+msgstr "Minuto(s)"
+
+#: src/Admin/admin-page.php:531
+msgid "Refresh cache every"
+msgstr "Atualizar o cache a cada"
+
+#: src/Admin/admin-page.php:523
+msgid "Enable caching"
+msgstr "Ativar o cache"
+
+#: src/Admin/admin-page.php:522
+msgid "Never cache"
+msgstr "Nunca utilizar o cache"
+
+#: src/Admin/admin-page.php:422 src/Admin/admin-page.php:519
+#: src/Admin/admin-page.php:547 src/Widget/form.php:7 src/Widget/form.php:54
+#: src/Widget/form.php:60 src/Widget/form.php:88 src/Widget/form.php:98
+#: src/Widget/form.php:190
+msgid "What is this?"
+msgstr "O que é isso?"
+
+#: src/Admin/admin-page.php:515
+msgid "If you are using a caching plugin such as WP Super Cache, enabling this feature will keep the popular list from being cached by it"
+msgstr "Se você está usando um plugin de cache tal como o WP Super Cache, habilitar este recurso irá impedir a lista de posts populares de ser armazenada pelo mesmo"
+
+#: src/Admin/admin-page.php:507
+msgid "Ajaxify widget"
+msgstr "Usar ajax no widget"
+
+#: src/Admin/admin-page.php:498
+msgid "day(s)"
+msgstr "dia(s)"
+
+#: src/Admin/admin-page.php:494
+msgid "Keep data for"
+msgstr "Manter dados por"
+
+#: src/Admin/admin-page.php:490
+msgid "Log limit"
+msgstr "Limite do log"
+
+#: src/Admin/admin-page.php:484
+msgid "Everyone"
+msgstr "Todo mundo"
+
+#: src/Admin/admin-page.php:483
+msgid "Logged-in users only"
+msgstr "Somente usuários logados"
+
+#: src/Admin/admin-page.php:482
+msgid "Visitors only"
+msgstr "Somente visitantes"
+
+#: src/Admin/admin-page.php:479
+msgid "Log views from"
+msgstr "Log de visualizações de"
+
+#: src/Admin/admin-page.php:473
+msgid "Data"
+msgstr "Dados"
+
+#: src/Admin/admin-page.php:453
+msgid "Use this button to clear WPP's thumbnails cache"
+msgstr "Use esse botão para limpar o cache de imagens destacadas do WPP"
+
+#: src/Admin/admin-page.php:452
+msgid "Empty image cache"
+msgstr "Limpar cache de imagens"
+
+#: src/Admin/admin-page.php:493 src/Admin/admin-page.php:510
+#: src/Admin/admin-page.php:550 src/Admin/admin-page.php:600
+msgid "Disabled"
+msgstr "Desabilitado"
+
+#: src/Admin/admin-page.php:511 src/Admin/admin-page.php:551
+#: src/Admin/admin-page.php:599
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: src/Admin/admin-page.php:426 src/Admin/admin-page.php:441
+msgid "Yes"
+msgstr "Sim"
+
+#: src/Admin/admin-page.php:440
+msgid "No, I will upload my own thumbnail"
+msgstr "Não, eu vou enviar minha própria imagem destacada"
+
+#: src/Admin/admin-page.php:437
+msgid "Resize image from Custom field?"
+msgstr "Redimensionar imagem do campo personalizado?"
+
+#: src/Admin/admin-page.php:431
+msgid "Custom field name"
+msgstr "Nome de campo personalizado"
+
+#: src/Admin/admin-page.php:418
+msgid "Tell WordPress Popular Posts where it should get thumbnails from"
+msgstr "Informa o WordPress Popular Posts de onde ele deve buscar as imagens destacadas"
+
+#: src/Admin/admin-page.php:415
+msgid "Custom field"
+msgstr "Campo personalizado"
+
+#: src/Admin/admin-page.php:413
+msgid "First image on post"
+msgstr "Primeira imagem no post"
+
+#: src/Admin/admin-page.php:412
+msgid "Featured image"
+msgstr "Imagem destacada"
+
+#: src/Admin/admin-page.php:409
+msgid "Pick image from"
+msgstr "Escolher imagem de"
+
+#: src/Admin/admin-page.php:396
+msgid "Default thumbnail"
+msgstr "Miniatura padrão"
+
+#: src/Admin/admin-page.php:390
+msgid "Thumbnails"
+msgstr "Miniaturas"
+
+#: src/Widget/form.php:37
+msgid "All-time"
+msgstr "Até o momento"
+
+#: src/Admin/admin-page.php:326 src/Widget/form.php:36
+msgid "Last 30 days"
+msgstr "Últimos 30 dias"
+
+#: src/Admin/admin-page.php:325 src/Widget/form.php:35
+msgid "Last 7 days"
+msgstr "Últimos 7 dias"
+
+#: src/Admin/admin-page.php:324 src/Widget/form.php:34
+msgid "Last 24 hours"
+msgstr "Últimas 24 horas"
+
+#: src/Admin/admin-page.php:272 src/Widget/form.php:52
+msgid "Display only posts published within the selected Time Range"
+msgstr "Exibir somente os posts publicados no intervalo de tempo selecionado"
+
+#: src/Admin/admin-page.php:278 src/Admin/admin-page.php:310
+#: src/Admin/admin-page.php:462 src/Admin/admin-page.php:569
+#: src/Admin/admin-page.php:609
+msgid "Apply"
+msgstr "Aplicar"
+
+#: src/Admin/admin-page.php:269
+msgid "Limit"
+msgstr "Limite"
+
+#: src/Admin/admin-page.php:266
+msgid "Post type"
+msgstr "Tipo de post"
+
+#: src/Admin/admin-page.php:8 src/Admin/admin-page.php:242
+msgid "Parameters"
+msgstr "Parâmetros"
+
+#: src/Admin/admin-page.php:7 src/Admin/admin-page.php:241
+msgid "Tools"
+msgstr "Ferramentas"
+
+#: src/Admin/admin-page.php:6 src/Admin/admin-page.php:240
+msgid "Stats"
+msgstr "Estatísticas"
+
+#. translators: Special characters (such as accents) must be replaced with
+#. Javascript Octal codes (eg. \341 is the Octal code for small a with acute
+#. accent)
+#: src/Admin/admin-page.php:199
+msgid "This operation will delete all cached thumbnails and cannot be undone."
+msgstr "Essa operação irá deletar todo o cache de imagens destacadas e não pode ser desfeita."
+
+#. translators: Special characters (such as accents) must be replaced with
+#. Javascript Octal codes (eg. \341 is the Octal code for small a with acute
+#. accent)
+#: src/Admin/admin-page.php:160
+msgid "This operation will delete all stored info from WordPress Popular Posts' data tables and cannot be undone."
+msgstr "Essa operação irá deletar todos os dados armazenados nas tabelas do banco de dados do WordPress Popular Posts e não pode ser desfeita."
+
+#. translators: Special characters (such as accents) must be replaced with
+#. Javascript Octal codes (eg. \341 is the Octal code for small a with acute
+#. accent)
+#: src/Admin/admin-page.php:121 src/Admin/admin-page.php:160
+#: src/Admin/admin-page.php:199
+msgid "Do you want to continue?"
+msgstr "Você quer continuar?"
+
+#. translators: Special characters (such as accents) must be replaced with
+#. Javascript Octal codes (eg. \341 is the Octal code for small a with acute
+#. accent)
+#: src/Admin/admin-page.php:121
+msgid "This operation will delete all entries from WordPress Popular Posts' cache table and cannot be undone."
+msgstr "Essa operação irá deletar todos os posts da tabela de cache do WordPress Popular Posts e não pode ser desfeita."
+
+#: src/Admin/admin-page.php:52
+msgid "Please provide the name of your custom field."
+msgstr "Por favor forneça o nome do seu campo personalizado."
+
+#: src/Admin/admin-page.php:30 src/Admin/admin-page.php:41
+#: src/Admin/admin-page.php:67 src/Admin/admin-page.php:103
+msgid "Settings saved."
+msgstr "Configurações salvas."
