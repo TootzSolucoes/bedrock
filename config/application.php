@@ -99,6 +99,20 @@ Config::define('DISALLOW_FILE_EDIT', true);
 Config::define('DISALLOW_FILE_MODS', true);
 
 /**
+ * S3 settings
+ */
+if (env('S3_UPLOADS_BUCKET')){
+    Config::define( 'S3_UPLOADS_BUCKET', env('S3_UPLOADS_BUCKET') );
+    Config::define( 'S3_UPLOADS_KEY', env('S3_UPLOADS_KEY') );
+    Config::define( 'S3_UPLOADS_SECRET', env('S3_UPLOADS_SECRET') );
+    Config::define( 'S3_UPLOADS_REGION', env('S3_UPLOADS_REGION') );
+    Config::define( 'S3_UPLOADS_AUTOENABLE', true );
+    if (env('S3_UPLOADS_BUCKET_URL')) {
+        Config::define( 'S3_UPLOADS_BUCKET_URL', env('S3_UPLOADS_BUCKET_URL') );
+    }
+}
+
+/**
  * Debugging Settings
  */
 Config::define('WP_DEBUG_DISPLAY', false);
