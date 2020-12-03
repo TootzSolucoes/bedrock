@@ -71,7 +71,6 @@
     "wpackagist-plugin/contact-form-7": "^5.2",
     "wpackagist-plugin/duplicate-post": "^3.2",
     "wpackagist-plugin/yikes-inc-easy-mailchimp-extender": "^6.7",
-    "wpackagist-plugin/seo-by-rank-math": "1.0.44.1",
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
     "symfony/yaml": "^5.1",
     "humanmade/s3-uploads": "^2.2"
